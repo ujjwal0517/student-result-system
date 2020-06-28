@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        .head-3{
+            color: red;
+            background-color: silver;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            width: 30%;
+        }
+        .a{
+            background-color: silver;
+            color:white;
+            margin: 30px auto;
+            line-height: 50px;
+            width: 30%;
+
+        }
+        a{
+            color: steelblue;
+            background-color:teal;
+            padding: 5px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="head-3">Sorry You have failed..!!</h3>
+    <div class="a">
+        <p>Name: <%= results.name %></p>
+        <p>Class: <%= results.class %></p>
+        <p>Marks: <%= results.marks %></p>
+        <p>Percentage: <%= results.percentage %></p>
+        
+    </div>
+    <a href="/">Go Back</a>
+    <!-- <a href="/search">Get certificate</a> -->
+</body>
+</html>
